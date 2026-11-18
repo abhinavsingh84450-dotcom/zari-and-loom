@@ -1,0 +1,11 @@
+# Robots.txt for Zari & Loom Handloom Studio
+# https://zariandloom.in/
+
+User-agent: *
+Allow: /
+
+# Disallow conversion confirmation page from search index
+Disallow: /thank-you.html
+
+# Sitemap reference
+Sitemap: https://zariandloom.in/sitemap.xml

@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bridal &amp; Pure Silk Sarees | Zari &amp; Loom</title>
+  <meta name="description" content="Browse exclusive bridal Kanjeevarams, antique Banarasi silks, and fine Chanderi sarees crafted for weddings. Visit our Dwarka Delhi studio.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://zariandloom.in/collections.html">
+
+  <!-- GOOGLE ANALYTICS 4 (GA4) TAG PLACEHOLDER -->
+  <!--
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-XXXXXXXXXX');
+  </script>
+  -->
+
+  <!-- Open Graph Meta Tags -->
+  <meta property="og:title" content="Bridal &amp; Pure Silk Sarees | Zari &amp; Loom">
+  <meta property="og:description" content="Browse exclusive bridal Kanjeevarams, antique Banarasi silks, and fine Chanderi sarees crafted for weddings. Visit our Dwarka Delhi studio.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://zariandloom.in/collections.html">
+  <meta property="og:image" content="https://zariandloom.in/assets/images/zari-loom-bridal-og.svg">
+  <meta property="og:locale" content="en_IN">
+  <meta property="og:site_name" content="Zari &amp; Loom">
+
+  <!-- Fonts & Stylesheet -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Deferred Script -->
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <!-- Accessible Skip Link -->
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <!-- Top Announcement Bar -->
+  <aside class="announcement-bar" aria-label="Studio Announcement">
+    <div class="container announcement-content">
+      <p>Exclusive Bridal Consultations by Appointment in Sector 12, Dwarka • Pure Handloom &amp; Certified Silk Mark</p>
+    </div>
+  </aside>
+
+  <!-- Reusable Site Header (Identical across all pages) -->
+  <header class="site-header">
+    <div class="container header-container">
+      <a href="index.html" class="brand-logo" aria-label="Zari and Loom Homepage">
+        <span class="brand-name">Zari &amp; Loom</span>
+        <span class="brand-tagline">Handloom &amp; Bridal Studio • Dwarka</span>
+      </a>
+
+      <!-- Mobile Navigation Hamburger Button -->
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-navigation" aria-label="Toggle navigation menu">
+        <span class="hamburger-bar"></span>
+        <span class="hamburger-bar"></span>
+        <span class="hamburger-bar"></span>
+      </button>
+
+      <!-- Primary Navigation -->
+      <nav id="primary-navigation" class="primary-nav" aria-label="Primary site navigation">
+        <ul class="nav-list">
+          <li><a href="index.html" class="nav-link">Home</a></li>
+          <li><a href="about.html" class="nav-link">About Us</a></li>
+          <li><a href="collections.html" class="nav-link active" aria-current="page">Collections</a></li>
+          <li><a href="contact.html" class="nav-link">Contact Us</a></li>
+          <li><a href="privacy-policy.html" class="nav-link">Privacy Policy</a></li>
+        </ul>
+        <div class="header-action">
+          <a href="contact.html#booking-form" class="btn btn-primary btn-sm">Book Appointment</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Main Landmark -->
+  <main id="main-content">
+
+    <!-- Collections Hero -->
+    <section class="collections-hero-section" aria-labelledby="collections-page-heading">
+      <div class="container text-center">
+        <span class="eyebrow-tag">Handloom Bridal &amp; Festive Trousseau</span>
+        <h1 id="collections-page-heading" class="hero-title">Curated Handloom Sarees for Weddings &amp; Celebrations</h1>
+        <p class="collections-hero-lead">
+          Explore our signature portfolio of pure silk and handspun cotton drapes. Every piece is woven by master artisans, certified by the Silk Mark Organisation of India, and available for private draping trials at our Dwarka studio.
+        </p>
+      </div>
+    </section>
+
+    <!-- Interactive Filter & Saree Showcase Section -->
+    <section class="catalog-section section-padding" aria-labelledby="catalog-heading">
+      <div class="container">
+        <h2 id="catalog-heading" class="visually-hidden">Complete Saree Collection Showcase</h2>
+
+        <!-- Interactive Category Filter Bar -->
+        <div class="filter-wrapper" role="toolbar" aria-label="Filter Sarees by Weaving Category">
+          <button 
+            type="button" 
+            class="filter-btn active" 
+            data-filter="all" 
+            aria-pressed="true">
+            All Collections (9)
+          </button>
+          <button 
+            type="button" 
+            class="filter-btn" 
+            data-filter="banarasi" 
+            aria-pressed="false">
+            Banarasi Katan Silk (3)
+          </button>
+          <button 
+            type="button" 
+            class="filter-btn" 
+            data-filter="chanderi" 
+            aria-pressed="false">
+            Chanderi &amp; Organza (3)
+          </button>
+          <button 
+            type="button" 
+            class="filter-btn" 
+            data-filter="mulmul" 
+            aria-pressed="false">
+            Handwoven Mulmul Cotton (3)
+          </button>
+        </div>
+
+        <!-- Filter Results Announcement for Screen Readers -->
+        <div id="filter-status" class="visually-hidden" role="status" aria-live="polite">
+          Showing all 9 curated handloom sarees.
+        </div>
+
+        <!-- 9 Curated Saree Showcase Grid -->
+        <div class="saree-grid" id="saree-grid">
+
+          <!-- ==================== BANARASI KATAN SILK (1 - 3) ==================== -->
+          
+          <!-- Saree 1 -->
+          <article id="banarasi" class="saree-card" data-category="banarasi">
+            <div class="saree-image-box">
+              <img 
+                src="https://images.unsplash.com/photo-1610030469983-98e550d6193c?auto=format&fit=crop&w=600&q=80" 
+                alt="Varanasi Pure Katan Silk Saree in Crimson Red with Multi-Color Rangkat Kadwa Weave and Antique Zari Pallu"
+                class="saree-img"
+                width="600"
+                height="750">
+              <span class="saree-badge">Pure Katan Silk</span>
+              <span class="saree-price">&#8377;58,500</span>
+            </div>
+            <div class="saree-card-body">
+              <span class="saree-cluster-tag">Varanasi, UP</span>
+              <h3 class="saree-title">Rangkat Floral Jaal Pure Katan Silk Saree</h3>
+              <p class="saree-desc">
+                An extraordinary bridal heirloom featuring kaleidoscopic rangkat dye stripes and hand-thrown kadwa floral jaal in antique electroplated gold zari.
+              </p>
+              <ul class="saree-specs" aria-label="Saree specifications">
+                <li><span>Fabric:</span> 100% Mulberry Katan Silk</li>
+                <li><span>Zari:</span> Antique Gold Electroplated Thread</li>
+                <li><span>Weave:</span> Traditional Kadwa Pit Loom Technique</li>
+                <li><span>Blouse:</span> Includes Matching Unstitched Pure Silk Blouse</li>
+              </ul>
+              <div class="saree-card-action">
+                <a href="contact.html?saree=Rangkat-Floral-Jaal-Pure-Katan-Silk#booking-form" class="btn btn-primary btn-block">Enquire / Book Draping</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Saree 2 -->
+          <article class="saree-card" data-category="banarasi">
+            <div class="saree-image-box">
+              <img 
+                src="https://images.unsplash.com/photo-1617627143750-d86bc21e42bb?auto=format&fit=crop&w=600&q=80" 
+                alt="Emerald Green Banarasi Shikargah Saree Handwoven with Antique Gold Zari Brocade and Regal Forest Motifs"
+                class="saree-img"
+                width="600"
+                height="750">
+              <span class="saree-badge">Shikargah Heritage</span>
+              <span class="saree-price">&#8377;46,000</span>
+            </div>
+            <div class="saree-card-body">
+              <span class="saree-cluster-tag">Varanasi, UP</span>
+              <h3 class="saree-title">Shikargah Antique Gold Brocade Katan Saree</h3>
+              <p class="saree-desc">
+                Regal emerald green pure silk adorned with historic Shikargah animal and forest motifs woven in fine gold thread with delicate meenakari detailing.
+              </p>
+              <ul class="saree-specs" aria-label="Saree specifications">
+                <li><span>Fabric:</span> Pure Katan Silk</li>
+                <li><span>Zari:</span> Antique Gold Brocade with Silk Resham</li>
+                <li><span>Weave:</span> Intricate Shikargah Brocade</li>
+                <li><span>Occasion:</span> Wedding Reception &amp; Royal Drapes</li>
+              </ul>
+              <div class="saree-card-action">
+                <a href="contact.html?saree=Shikargah-Antique-Gold-Brocade-Katan#booking-form" class="btn btn-primary btn-block">Enquire / Book Draping</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Saree 3 -->
+          <article class="saree-card" data-category="banarasi">
+            <div class="saree-image-box">
+              <img 
+                src="https://images.unsplash.com/photo-1583391733956-3750e0ff4e8b?auto=format&fit=crop&w=600&q=80" 
+                alt="Deep Wine Maroon Banarasi Bridal Saree Featuring Heavy Jangla Zari Weave and Broad Scalloped Border"
+                class="saree-img"
+                width="600"
+                height="750">
+              <span class="saree-badge">Bridal Jangla</span>
+              <span class="saree-price">&#8377;52,000</span>
+            </div>
+            <div class="saree-card-body">
+              <span class="saree-cluster-tag">Varanasi, UP</span>
+              <h3 class="saree-title">Jangla Motifs Bridal Katan Silk Saree</h3>
+              <p class="saree-desc">
+                Opulent deep wine maroon hue covered in a dense, flowing floral creepers (jangla) design, completed with an ornate grand pallu and scalloped zari edges.
+              </p>
+              <ul class="saree-specs" aria-label="Saree specifications">
+                <li><span>Fabric:</span> High-Density Mulberry Silk</li>
+                <li><span>Zari:</span> Real Gold Wash Zari Thread</li>
+                <li><span>Weave:</span> Kadwa Jangla Architecture</li>
+                <li><span>Purity:</span> Silk Mark Certified with Serial Tag</li>
+              </ul>
+              <div class="saree-card-action">
+                <a href="contact.html?saree=Jangla-Motifs-Bridal-Katan-Silk#booking-form" class="btn btn-primary btn-block">Enquire / Book Draping</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- ==================== CHANDERI & ORGANZA (4 - 6) ==================== -->
+
+          <!-- Saree 4 -->
+          <article id="chanderi" class="saree-card" data-category="chanderi">
+            <div class="saree-image-box">
+              <img 
+                src="https://images.unsplash.com/photo-1594744803329-e58b31de8bf5?auto=format&fit=crop&w=600&q=80" 
+                alt="Pastel Peach Chanderi Silk Cotton Saree with Traditional Ashrafi Bootis and Nakshi Zari Border"
+                class="saree-img"
+                width="600"
+                height="750"
+                loading="lazy">
+              <span class="saree-badge">Chanderi Pattu</span>
+              <span class="saree-price">&#8377;24,500</span>
+            </div>
+            <div class="saree-card-body">
+              <span class="saree-cluster-tag">Chanderi, MP</span>
+              <h3 class="saree-title">Chanderi Silk-Cotton Pastel Peach Saree</h3>
+              <p class="saree-desc">
+                A breathable gossamer blend of degummed silk and combed cotton, dusted with classic hand-plucked Ashrafi coin bootis and a gleaming nakshi gold border.
+              </p>
+              <ul class="saree-specs" aria-label="Saree specifications">
+                <li><span>Fabric:</span> Silk-Cotton Handloom Blend</li>
+                <li><span>Zari:</span> Silver-Gilt Ashrafi Coin Motifs</li>
+                <li><span>Border:</span> Fine Eknaliya Geometric Selvedge</li>
+                <li><span>Weight:</span> Ultra-Lightweight (380 grams)</li>
+              </ul>
+              <div class="saree-card-action">
+                <a href="contact.html?saree=Chanderi-Silk-Cotton-Pastel-Peach#booking-form" class="btn btn-primary btn-block">Enquire / Book Draping</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Saree 5 -->
+          <article class="saree-card" data-category="chanderi">
+            <div class="saree-image-box">
+              <img 
+                src="https://images.unsplash.com/photo-1617627143750-d86bc21e42bb?auto=format&fit=crop&w=600&q=80" 
+                alt="Golden Sand Pure Tissue Organza Saree with Delicate Hand Cutwork Scalloped Zari Borders"
+                class="saree-img"
+                width="600"
+                height="750"
+                loading="lazy">
+              <span class="saree-badge">Tissue Organza</span>
+              <span class="saree-price">&#8377;32,000</span>
+            </div>
+            <div class="saree-card-body">
+              <span class="saree-cluster-tag">Chanderi Studio</span>
+              <h3 class="saree-title">Gossamer Tissue Organza Sangeet Drape</h3>
+              <p class="saree-desc">
+                Ethereal golden-sand shimmer crafted with metallic tissue warp threads and organza silk weft, framed by delicate hand-cut scalloped borders.
+              </p>
+              <ul class="saree-specs" aria-label="Saree specifications">
+                <li><span>Fabric:</span> Pure Metallic Tissue Silk Organza</li>
+                <li><span>Detail:</span> Hand-Finished Scalloped Zari Trim</li>
+                <li><span>Shine:</span> Multi-Faceted Candlelight Glow</li>
+                <li><span>Occasion:</span> Sangeet, Cocktail &amp; Engagement</li>
+              </ul>
+              <div class="saree-card-action">
+                <a href="contact.html?saree=Gossamer-Tissue-Organza-Sangeet#booking-form" class="btn btn-primary btn-block">Enquire / Book Draping</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Saree 6 -->
+          <article class="saree-card" data-category="chanderi">
+            <div class="saree-image-box">
+              <img 
+                src="https://images.unsplash.com/photo-1583391733956-3750e0ff4e8b?auto=format&fit=crop&w=600&q=80" 
+                alt="Dual-Tone Lavender and Silver Chanderi Silk Saree with Delicate Meenakari Floral Weave"
+                class="saree-img"
+                width="600"
+                height="750"
+                loading="lazy">
+              <span class="saree-badge">Meenakari Chanderi</span>
+              <span class="saree-price">&#8377;28,000</span>
+            </div>
+            <div class="saree-card-body">
+              <span class="saree-cluster-tag">Chanderi, MP</span>
+              <h3 class="saree-title">Dual-Tone Lavender Meenakari Chanderi Saree</h3>
+              <p class="saree-desc">
+                Enchanting lavender drape woven with dual-tone silver sheen, detailed with miniature floral booties hand-embroidered with colored silk resham meenakari.
+              </p>
+              <ul class="saree-specs" aria-label="Saree specifications">
+                <li><span>Fabric:</span> Pure Chanderi Pattu Silk</li>
+                <li><span>Zari:</span> Silver Electroplated Weft with Resham</li>
+                <li><span>Feel:</span> Soft, translucent drape with crisp fall</li>
+                <li><span>Occasion:</span> Day Wedding Ceremonies &amp; Pujas</li>
+              </ul>
+              <div class="saree-card-action">
+                <a href="contact.html?saree=Dual-Tone-Lavender-Meenakari-Chanderi#booking-form" class="btn btn-primary btn-block">Enquire / Book Draping</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- ==================== HANDWOVEN MULMUL COTTON (7 - 9) ==================== -->
+
+          <!-- Saree 7 -->
+          <article id="mulmul" class="saree-card" data-category="mulmul">
+            <div class="saree-image-box">
+              <img 
+                src="https://images.unsplash.com/photo-1609357605129-26f69add5d6e?auto=format&fit=crop&w=600&q=80" 
+                alt="Ivory White Bengal Mulmul Cotton Saree Handwoven with Antique Zari Temple Border and Tassel Pallu"
+                class="saree-img"
+                width="600"
+                height="750"
+                loading="lazy">
+              <span class="saree-badge">Bengal Mulmul</span>
+              <span class="saree-price">&#8377;9,800</span>
+            </div>
+            <div class="saree-card-body">
+              <span class="saree-cluster-tag">Phulia, West Bengal</span>
+              <h3 class="saree-title">Bengal Handspun Mulmul with Temple Border</h3>
+              <p class="saree-desc">
+                Woven from 120s count feather-soft handspun cotton yarn, detailed with a subtle antique zari temple (korvai) border and hand-knotted tassel pallu.
+              </p>
+              <ul class="saree-specs" aria-label="Saree specifications">
+                <li><span>Fabric:</span> 120s Count Pure Combed Cotton</li>
+                <li><span>Border:</span> Fine Antique Gold Zari Temple Motifs</li>
+                <li><span>Touch:</span> Whisper-light, breathable, skin-soothing</li>
+                <li><span>Occasion:</span> Haldi, Festive Mornings &amp; Summer Brunches</li>
+              </ul>
+              <div class="saree-card-action">
+                <a href="contact.html?saree=Bengal-Handspun-Mulmul-Temple-Border#booking-form" class="btn btn-primary btn-block">Enquire / Book Draping</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Saree 8 -->
+          <article class="saree-card" data-category="mulmul">
+            <div class="saree-image-box">
+              <img 
+                src="https://images.unsplash.com/photo-1607604276583-eef5d076aa5f?auto=format&fit=crop&w=600&q=80" 
+                alt="Mustard Yellow Handwoven Mulmul Cotton Saree Featuring Intricate Jamdani Geometric Pallu"
+                class="saree-img"
+                width="600"
+                height="750"
+                loading="lazy">
+              <span class="saree-badge">Jamdani Weave</span>
+              <span class="saree-price">&#8377;14,500</span>
+            </div>
+            <div class="saree-card-body">
+              <span class="saree-cluster-tag">Handloom Cluster</span>
+              <h3 class="saree-title">Jamdani Motif Breathable Festive Mulmul Saree</h3>
+              <p class="saree-desc">
+                Vibrant auspicious mustard yellow handloom cotton featuring discontinuous supplementary weft Jamdani motifs floating like fine embroidery over sheer muslin.
+              </p>
+              <ul class="saree-specs" aria-label="Saree specifications">
+                <li><span>Fabric:</span> Hand-loomed Fine Cotton</li>
+                <li><span>Artisanry:</span> Authentic Jamdani Needle Technique</li>
+                <li><span>Accent:</span> Muted Gold Selvedge Edging</li>
+                <li><span>Occasion:</span> Mehendi, Pooja Celebrations &amp; Gifting</li>
+              </ul>
+              <div class="saree-card-action">
+                <a href="contact.html?saree=Jamdani-Motif-Festive-Mulmul#booking-form" class="btn btn-primary btn-block">Enquire / Book Draping</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Saree 9 -->
+          <article class="saree-card" data-category="mulmul">
+            <div class="saree-image-box">
+              <img 
+                src="https://images.unsplash.com/photo-1610030469983-98e550d6193c?auto=format&fit=crop&w=600&q=80" 
+                alt="Deep Indigo Handloom Cotton Saree Spun on Pit Looms with Antique Gold Selvedge Borders"
+                class="saree-img"
+                width="600"
+                height="750"
+                loading="lazy">
+              <span class="saree-badge">Natural Indigo</span>
+              <span class="saree-price">&#8377;11,200</span>
+            </div>
+            <div class="saree-card-body">
+              <span class="saree-cluster-tag">Artisanal Loom</span>
+              <h3 class="saree-title">Indigo &amp; Gold Selvedge Handloom Cotton Saree</h3>
+              <p class="saree-desc">
+                Dyed in fermented plant-based organic indigo vats and spun on traditional pit looms, accentuated with crisp antique gold selvedges and geometric stripes.
+              </p>
+              <ul class="saree-specs" aria-label="Saree specifications">
+                <li><span>Dye:</span> 100% Plant-Based Natural Indigo</li>
+                <li><span>Loom:</span> Traditional Pit Loom Handloom</li>
+                <li><span>Zari:</span> Subtle Gold Woven Selvedge Edge</li>
+                <li><span>Versatility:</span> Graceful drape for cultural evenings</li>
+              </ul>
+              <div class="saree-card-action">
+                <a href="contact.html?saree=Indigo-Gold-Selvedge-Handloom-Cotton#booking-form" class="btn btn-primary btn-block">Enquire / Book Draping</a>
+              </div>
+            </div>
+          </article>
+
+        </div>
+
+        <!-- Consultation Banner Callout -->
+        <div class="collections-consultation-banner">
+          <div class="banner-text">
+            <h3 class="banner-title">Looking for a Specific Color Palate or Custom Weave?</h3>
+            <p class="banner-desc">
+              We collaborate directly with our master weavers in Varanasi and Kanchipuram to customize bridal border widths, zari compositions, and trousseau pairings.
+            </p>
+          </div>
+          <div class="banner-cta">
+            <a href="contact.html#booking-form" class="btn btn-primary">Book Studio Drape Session</a>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Reusable Site Footer (Identical across all pages) -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      
+      <!-- Footer Brand Column -->
+      <div class="footer-column footer-brand-col">
+        <a href="index.html" class="footer-brand" aria-label="Zari and Loom Homepage">
+          <span class="brand-name">Zari &amp; Loom</span>
+          <span class="brand-tagline">Handloom &amp; Bridal Studio • Dwarka</span>
+        </a>
+        <p class="footer-bio">
+          A dedicated handloom and bridal saree boutique based in Dwarka, New Delhi. Curating pure Banarasi katan silks, heritage Kanjeevarams, gossamer Chanderis, and breathable handloom cottons.
+        </p>
+        <div class="footer-silk-badge">
+          <span class="silk-badge-icon" aria-hidden="true">&#10004;</span>
+          <span>Certified Handloom &amp; Pure Silk Mark Studio</span>
+        </div>
+      </div>
+
+      <!-- Quick Links Navigation -->
+      <nav class="footer-column" aria-label="Footer Quick Links">
+        <h3 class="footer-heading">Studio Navigation</h3>
+        <ul class="footer-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="collections.html">Collections</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+          <li><a href="privacy-policy.html">Privacy Policy</a></li>
+        </ul>
+      </nav>
+
+      <!-- Handloom Weaves Categories -->
+      <nav class="footer-column" aria-label="Footer Weaves Navigation">
+        <h3 class="footer-heading">Signature Weaves</h3>
+        <ul class="footer-links">
+          <li><a href="collections.html#banarasi">Pure Banarasi Katan Silk</a></li>
+          <li><a href="collections.html">Curated Handloom Edits</a></li>
+          <li><a href="collections.html#chanderi">Chanderi &amp; Tissue Organza</a></li>
+          <li><a href="collections.html#mulmul">Handwoven Mulmul Cotton</a></li>
+          <li><a href="contact.html#booking-form">Bespoke Bridal Consultations</a></li>
+        </ul>
+      </nav>
+
+      <!-- Studio Location & Contact Column -->
+      <div class="footer-column">
+        <h3 class="footer-heading">Dwarka Studio</h3>
+        <address class="footer-address">
+          <p>Plot 14, Sector 12, Dwarka</p>
+          <p>New Delhi, Delhi 110078, India</p>
+          <p class="footer-contact-row">
+            <strong>Phone:</strong> <a href="tel:+919811000000">+91-98110-XXXXX</a>
+          </p>
+          <p class="footer-contact-row">
+            <strong>Email:</strong> <a href="mailto:namaste@zariandloom.com">namaste@zariandloom.com</a>
+          </p>
+          <p class="footer-hours">
+            <strong>Hours:</strong> Tue – Sun: 11:00 AM – 8:00 PM<br>(Mondays by bridal appointment)
+          </p>
+        </address>
+      </div>
+
+    </div>
+
+    <!-- Sub-Footer / Copyright -->
+    <div class="sub-footer">
+      <div class="container sub-footer-content">
+        <p class="copyright-text">
+          &copy; 2026 Zari &amp; Loom. All rights reserved. Handcrafted with reverence for India’s handloom heritage.
+        </p>
+        <ul class="sub-footer-links">
+          <li><a href="privacy-policy.html">Privacy Policy</a></li>
+          <li><a href="contact.html">Studio Directions</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
